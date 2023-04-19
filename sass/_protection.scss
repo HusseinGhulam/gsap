@@ -1,0 +1,33 @@
+.protection {
+  padding: 15rem 20rem;
+
+  &__heading {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+  }
+
+  &__sec {
+    margin-bottom: 10rem;
+
+    &--title {
+      font-size: 3rem;
+    }
+
+    &--list {
+      font-size: 2.4rem;
+      padding-left: 4rem;
+      margin: 2rem 0;
+      
+      li {
+        &:not(:last-child){
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

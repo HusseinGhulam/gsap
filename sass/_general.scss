@@ -1,0 +1,6 @@
+.grad-text {
+  display: inline-block !important;
+  background-image: linear-gradient(to right, $color-tertiary, $color-secondary);
+  background-clip: text;
+  color: transparent;
+}
